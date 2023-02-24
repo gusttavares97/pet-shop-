@@ -45,8 +45,9 @@ width: 100px;
     margin-left: 500px;
 }
 .main{
-    background-image: url(../img/dogdev.png);
+    background-image: url(../img/petgang.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     height: 730px;
     display: block;
 }

@@ -1,0 +1,28 @@
+.loja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+    gap:25px;
+
+}
+
+.loja-img{
+    margin: 20px;
+    height: 150px;
+    border-radius: 100px;
+    float: left;   
+}
+ 
+.loja-div{
+    box-shadow: 1px 1px 0px rgb(197, 197, 197);
+}
+
+
+
+.loja-div h2{
+    color: aqua;
+    margin: 20px;
+}
+.loja-div p{
+    margin-left: 50px;
+}
