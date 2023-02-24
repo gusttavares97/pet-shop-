@@ -1,0 +1,22 @@
+.blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    
+}
+
+
+.container-blog{
+    margin: 80px;
+    height: 300px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.container-blog img{
+    height: 200px;
+}
+
+.container-blog h1{
+    color: aqua;
+}
