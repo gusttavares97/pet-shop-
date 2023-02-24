@@ -26,3 +26,19 @@
 .loja-div p{
     margin-left: 50px;
 }
+
+.casa-p{
+    background-image: url(../img/gatocaixa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 730px;
+    display: block;
+}
+
+.casa-p h1{
+    font-size: 42px;
+    color:beige;
+    margin-left: 25%;
+    padding-top: 20%;
+    letter-spacing: 8px;
+}
