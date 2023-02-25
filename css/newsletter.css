@@ -1,0 +1,34 @@
+.form-bg{
+    background-color: rgb(217, 217, 218);
+    height: 300px;
+}
+
+.nl{
+    margin: 30px;
+    margin-left: 420px;
+    padding: 20px;
+    letter-spacing: 6px;
+    color: aqua;
+}
+
+.nl-p{
+    margin-left: 500px;
+}
+
+.form-nl{
+    margin: 30px;
+    margin-left: 450px;
+    padding: 50px;
+}
+
+.form-nl input{
+    padding: 5px 50px;
+    border-color: aliceblue;
+}
+
+.btn-nl{
+    padding: 8px 15px;
+    color: antiquewhite;
+    background-color: aqua;
+    border: none;
+}
