@@ -1,0 +1,24 @@
+.footer-bg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+}
+
+.icon{
+    display: inline-block;
+    height: 100px;
+    margin: 10px;
+}
+
+.foooter-numeros{
+    font-size: 38;
+    color: aqua;
+}
+
+.cop{
+    background-color: aqua;
+    
+}
+.cop h1{
+    margin-left:33%
+}
