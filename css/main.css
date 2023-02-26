@@ -1,0 +1,51 @@
+/*.menu-nav li{
+    color: rgb(241, 236, 236);
+display: inline-block;
+margin:30px ;
+font-size: 18px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+cursor: pointer;
+
+}
+
+.menu-nav li::after{
+content: '';
+display: block;
+height: 2px;
+width: 0%;
+background: #0e0d0d;
+margin-top: 4px;
+transition: 0.3s;
+position: absolute;
+}
+
+.menu-nav li:hover:after{
+width: 100px;
+}*/
+
+.pata{
+height: 100px;
+display: flex;
+margin: 10px;
+margin-left: 550px;
+}
+.main{
+background-image: url(../img/petgang.jpg);
+background-position: center;
+background-repeat: no-repeat;
+height: 730px;
+display: block;
+}
+
+.main p{
+margin: 20px; 
+font-size: 23px;
+margin-left: 550px;
+}
+
+.main h1{
+margin: 20px;
+color: aqua;
+font-size: 36px;
+margin-left: 600px;
+}
