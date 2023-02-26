@@ -1,66 +1,72 @@
-.bg-nav{
-    display:flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: space-between;
-    
-    
+    body, ul{
+        margin:0px;
+        padding: 0px;
+    }
 
-}
+    a{
+        color:black;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    a:hover{
+        background: rgba(124, 121, 121, 0);
 
-.logo{
-    height: 100px;
-}
+    }
 
+    .logo{
+        height: 100px;
+    }
+    #header{
+        box-sizing: border-box;    
+        padding: 1rem;
+        display:flex;
+        height: 10px;
+        align-items: center;
+        justify-content: space-between;
+        background: #e7e7e7;
+        
+    }
+    #menu{
+        display: flex;
+        list-style: none;
+        gap:.5rem;
+    }
+    #menu a {
+        display: block;
+        padding: .5rem;
+    }
 
-.menu-nav li{
-        color: black;
-    display: inline-block;
-    margin:30px ;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    cursor: pointer;
-    
-}
+    #btn-mobile{
+        display:none
+    }
 
-.menu-nav li::after{
-    content: '';
-    display: block;
-    height: 2px;
-    width: 0%;
-    background: #080808;
-    margin-top: 4px;
-    transition: 0.3s;
-    position: absolute;
-}
+    @media(max-width:600px){
+        #btn-mobile{
+            display: block;
+        }
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top:70px;
+        right: 0px;
+        background: #838181;
+        transition: .6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        
+    }
+    #nav.active #menu{
+        height: calc(100vh -70px);
+        visibility: visible;
+        
+    }
 
-.menu-nav li:hover:after{
-width: 100px;
-}
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0,0,0, .05)
+    }
 
-.pata{
-    height: 100px;
-    display: flex;
-    margin: 10px;
-    margin-left: 550px;
-}
-.main{
-    background-image: url(../img/petgang.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 730px;
-    display: block;
-}
-
-.main p{
-margin: 20px; 
-font-size: 23px;
-margin-left: 550px;
-}
-
-.main h1{
-    margin: 20px;
-    color: aqua;
-    font-size: 36px;
-    margin-left: 600px;
-}
+    }
