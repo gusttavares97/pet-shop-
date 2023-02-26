@@ -1,4 +1,4 @@
-/*.menu-nav li{
+.menu-nav li{
     color: rgb(241, 236, 236);
 display: inline-block;
 margin:30px ;
@@ -21,7 +21,7 @@ position: absolute;
 
 .menu-nav li:hover:after{
 width: 100px;
-}*/
+}
 
 .pata{
 height: 100px;
