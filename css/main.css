@@ -1,5 +1,5 @@
 .menu-nav li{
-    color: rgb(241, 236, 236);
+ color: rgb(241, 236, 236);
 display: inline-block;
 margin:30px ;
 font-size: 18px;
@@ -48,4 +48,41 @@ margin: 20px;
 color: aqua;
 font-size: 36px;
 margin-left: 600px;
+}
+@media(max-width:600px){
+ 
+    .pata{
+        height: 50px;
+        display: flex;
+        margin: 10px;
+        margin-left: 130px;
+    }
+
+    .menu-nav li{
+        display: block;
+    }
+
+    .main{
+        background-image: url(../img/petgang.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 600px;
+        height: 600px;
+        display: block;
+}
+
+.main p{
+    margin: 20px; 
+    font-size: 20px;
+    margin-left: 60px;
+    }
+    
+    .main h1{
+    margin: 20px;
+    color: aqua;
+    font-size: 32px;
+    margin-left: 100px;
+
+}
+
 }
