@@ -32,3 +32,39 @@
     background-color: aqua;
     border: none;
 }
+@media(max-width:600px){
+    .form-bg{
+        background-color: rgb(217, 217, 218);
+        height: 400px;
+    }
+    
+    .nl{
+        margin: 30px;
+        margin-left: 70px;
+        padding: 20px;
+        letter-spacing: 4px;
+        color: aqua;
+    }
+    
+    .nl-p{
+        margin-left: 80px;
+    }
+    
+    .form-nl{
+        display: inline;
+        margin: 30px;
+        margin-left: 10px;
+        padding: 20px;
+    }
+    
+    .form-nl input{
+        padding: 5px 12px;
+        border-color: aliceblue;
+    }
+    .btn-nl{
+        padding: 8px 15px;
+        color: antiquewhite;
+        background-color: aqua;
+        border: none;
+    }
+}
