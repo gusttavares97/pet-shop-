@@ -13,6 +13,26 @@
 .parceiros img{
     height: 200px;
     box-shadow: 1px 1px 0px rgb(197, 197, 197);
-    margin-left: 100px;;
+    margin-left: 100px;
 
+}
+
+@media (max-width:600px){
+    .texto-parceiros{
+        margin: 15px;
+        font-size: 28px;
+    }
+    
+    .parceiros{
+        display: grid;
+        grid-template-columns: 1fr  1fr;
+        margin: 35px;
+        gap:20px;
+    }
+    
+    .parceiros img{
+        height: 50px;
+        margin-left: 10px;
+    
+    }
 }

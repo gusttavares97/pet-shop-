@@ -69,4 +69,12 @@
     .loja-div p{
         margin-left: 0px;
     }
+
+    .casa-p h1{
+        font-size: 22px;
+        color:beige;
+        margin-left: 25%;
+        padding-top: 20%;
+        letter-spacing: 8px;
+    }
 }
