@@ -42,3 +42,31 @@
     padding-top: 20%;
     letter-spacing: 8px;
 }
+
+@media (max-width:600px){
+
+    .loja{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin: 30px;
+        gap:25px;
+    
+    }
+    
+    .loja-img{
+        align-items: center;
+        margin: 10px;
+        height: 100px;
+        border-radius: 100px;
+        float: left;   
+    }
+
+    .loja-div h2{
+        position: relative;
+        color: aqua;
+        margin: 10px;
+    }
+    .loja-div p{
+        margin-left: 0px;
+    }
+}
