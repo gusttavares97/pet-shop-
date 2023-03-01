@@ -1,4 +1,4 @@
-function initfetchBitcoin(){
+export default function fetchBitcoin(){
 
     fetch(' https://blockchain.info/ticker')
     .then(response => response.json())
@@ -10,5 +10,6 @@ function initfetchBitcoin(){
     })
 }
 
-initfetchBitcoin()
+fetchBitcoin()
+
 
