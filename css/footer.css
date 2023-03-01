@@ -31,6 +31,21 @@
 
 }
 
+[data-semana]::after{
+    display: inline-block;
+    content: ' ';
+    width: 12px;
+    height: 12px;
+    background: rgb(230, 50, 6);
+    border-radius: 50px;
+    margin-left: 4px;
+    border: 1px solid black;   
+}
+[data-semana].aberto::after{
+background: green;
+}
+
+
 @media (max-width:600px){
     .footer-bg{
         display: grid;

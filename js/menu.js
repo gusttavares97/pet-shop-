@@ -7,4 +7,3 @@ export default function toggleMenu(){
     btnMobile.addEventListener('click', toggleMenu );
 }
 
-toggleMenu()
